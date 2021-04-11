@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WebCampBackendNew</title>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="aICLS645Iv2OY9p+A6tT+D0WBBwz8Q5WtgBRcz7iwJORRb03B3TI/KF8S5AqVilO52ENKebsTqIfFASCxcHANw==" />
+
+    <link rel="stylesheet" media="all" href="/assets/application-d12397cbc3a266ce5a99f7b588223090c55ca04a439953bb5f9304395de93fc3.css" data-turbolinks-track="reload" />
+    <script src="/assets/application-4e370d3723b6f204426a9414077d365ea07814cce5619ae24fb7e581988f19ed.js" data-turbolinks-track="reload"></script>
+  </head>
+
+  <body>
+    <p id="notice">Book was successfully created.</p>
+
+<h2>タイトル</h2>
+<p><%= @book.title%></p>
+<h2>本文</h2>
+<p><%=@book.body  %></p>
+
+ <%= link_to "Edit", edit_book_path(@book) %>
+<a class="back" href="/books">Back</a>
+
+
+  </body>
+</html>
