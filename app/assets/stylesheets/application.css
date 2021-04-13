@@ -13,3 +13,106 @@
  *= require_tree .
  *= require_self
  */
+
+
+/*.index{*/
+/* width: 880px;*/
+/*  margin: 0 auto;*/
+/* position: relative;*/
+/*}*/
+
+
+
+/*.top1{*/
+/* position: absolute;*/
+/* top:0;*/
+/* left:0;*/
+/*}*/
+
+/*.top2{*/
+/*    display: inline-block;*/
+/*    position: absolute;*/
+/*    left:120px;*/
+/*    top:50px;*/
+/*}*/
+
+/*.top3{*/
+/*    display: inline-block;*/
+/*    position: absolute;*/
+/*    left:500px;*/
+/*    top:50px;*/
+/*}*/
+
+
+
+/*.text1{*/
+/*  display: inline-block;*/
+/*  position: absolute;*/
+/*  left: 130px;*/
+/*  top: 90px;*/
+
+/*}*/
+
+/*.text2{*/
+/*display: inline-block;*/
+/* position: absolute;*/
+/*  left: 510px;*/
+/*  top: 90px;*/
+/*}*/
+
+
+/*.delete{*/
+/* position: absolute;*/
+/*   left: 750px;*/
+/*   top: 105px;*/
+/*   display: inline-block;*/
+/*}*/
+
+/*.edit{*/
+/*  position: absolute;*/
+/*  left: 700px;*/
+/*  top: 105px;*/
+/*  display: inline-block;*/
+/*}*/
+
+/*.show{*/
+   /*position: absolute;*/
+   /*left: 650px;*/
+   /*top: 105px;*/
+   /*display: inline-block;*/
+
+/*}*/
+
+/*.form{*/
+/*  position: absolute;*/
+/*  top:400px;*/
+/*  left:0;*/
+/*}*/
+
+
+.text_area{
+
+line-height: 2.5em;
+white-space: nowrap;
+left: 0;
+margin-bottom: 10px;
+}
+
+
+.main{
+    padding-left: 200px;
+
+}
+
+a{
+ padding-right: 5px;
+ margin-left: 20px;
+}
+
+p{
+ padding-right: 70px;
+}
+
+.error{
+ color:red;
+}

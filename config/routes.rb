@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   # get 'show'=>'homes#show'
   # get 'new'=>'homes#new'
   # get 'edit'=>'homes#edit'
-   get 'top'=>'homes#top'
+   root  'homes#top'
 
 
 
