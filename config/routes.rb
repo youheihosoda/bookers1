@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
  resources:books
- resources:homes
   # get 'index'=>'homes#index'
   # post 'index' => 'homes#index'
   # get 'show'=>'homes#show'
